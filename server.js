@@ -9,7 +9,7 @@ app.get("/ping", (req, res) => {
   res.send("Pong!");
 });
 app.get("/youtube", (req, res) => {
-  res.send("Hello, Youtube!");
+  res.send("Hello, youtube!");
 });
 app.get("/hello/:name", (req, res) => {
   res.json({ message: greeting(req.params.name) });
