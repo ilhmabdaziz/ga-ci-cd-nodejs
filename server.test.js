@@ -15,12 +15,6 @@ test("Call the /ping endpoint", async (done) => {
   expect(res.text).toBe("Pong!");
   done();
 });
-test("Call the /youtube endpoint", async (done) => {
-  const res = await request.get("/youtube");
-  expect(res.status).toBe(200);
-  expect(res.text).toBe("Hello, youtube indonesia!");
-  done();
-});
 test("Call the /hello/:name", async (done) => {
   const res = await request.get("/hello/zizsy");
   expect(res.status).toBe(200);
