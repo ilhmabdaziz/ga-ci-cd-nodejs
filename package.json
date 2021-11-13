@@ -1,0 +1,11 @@
+{
+  "name": "ga-ci-cd-master",
+  "version": "1.0.0",
+  "description": "test for github-actions-runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zizsy",
+  "license": "ISC"
+}
